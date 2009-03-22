@@ -1,0 +1,97 @@
+# Custom .cshrc 
+# Written by Karim Hamidou - on 10/27/07
+#
+
+# Set an emacs-like editing mode :
+bindkey -e
+
+# Exchange the two characters before the cursor -*- UNDOCUMENTED -*- :)
+# This emulate  from gosling emacs (i.e : swap the two previous letters and
+# not the current letter and the previous letter (this is emacs standard 
+# behaviour).
+
+bindkey ^T gosmacs-transpose-chars 
+
+set autolist
+set fignore = ( .o \~ )
+
+  
+# Set an appropriate path - I usually store some binaries in the folder 
+# ~/usrbin.
+setenv PATH /usr/share/snow/v1.1.2/bin:~/usrbin:/usr/bin/mh:~/usrbin/jdk1.6.0_11/bin:$PATH
+
+setenv CLASSPATH /usr/local/lib/kawa.jar
+# Make less a better place to live.
+# -N : displays line numbers
+# -Q : disable ringing
+
+setenv LESS "-Q"
+setenv EDITOR "vile"
+# Make "pushd " equivalent to "pushd ~"
+set pushdtohome=1
+
+# Toogle on pushd's silent mode
+set pushdsilent=1
+
+# Prompt if rm * is executed.
+set rmstar=1
+
+# Stop those _highly_ annoying beeps
+set nobeep
+
+# Set autolist
+# For instance, ch<TAB> will give a list of the commands beginning with ch.
+set autolist
+
+# List all the jobs after a C-z
+set listjobs
+
+# Ignore some files during completion
+set fignore=(.o)
+
+setenv http_proxy http://sigma.utc.fr:3128
+# Define the helpcommand alias - the command to run when the user types
+# a command, and then M-h, to get its explanation.
+alias helpcommand man
+
+# Define the dirs alias - to get a more precise directory stack listing.
+alias dirs dirs -v
+
+# Save the directory stack at each logout (keeps only 15 entries)
+#set savedirs=15
+
+# Some utility aliases 
+alias m emacs
+alias emacs emacs22 -nw   # emacs21 is better - but emacs22 has python-mode
+alias l less
+alias n mc
+alias sl ls
+alias telnel telnet  # This one is particularly annoying.
+alias cls clear
+alias mdir mkdir -p  # This alias supersedes mtool's mdir but who uses msdos ?
+alias ls ls-F --color=auto # This undocumented feature provide color for ls-F,
+                           # a built-in implementation of ls.
+
+alias forth gforth # Default forth 
+
+# Automatic rogue saves.
+alias rs bash rs.sh
+alias xr "xrogue; cp xrogue.sav Documents/rogue-saves/xrogue8/xrogue-`date +%F@%k-%m`"
+alias ars "cp ~/rogue.sav Documents/rogue-saves/original-3.6/rogue-`date +%F@%k-%m`"
+
+alias spindent indent -bad -bap -nsob -cdb -sc -br -cdw -cli3 -npcs -cs -nbc -brs -bbo 
+
+# Aliases for sshing to joondalup and nicolas-fr
+alias sniko ssh kaaah@nicolas-fr.net
+alias sdavro ssh karim@joondalup.davromaniak.eu
+alias sflew ssh karim@famille-neyret.fr
+alias tvega ssh khamidou@vega.utc.fr
+alias pig ping google.com
+
+# COmmodity aliases for apt-get :
+alias apts apt-cache search
+alias apti sudo apt-get install
+alias aptr sudo apt-get remove
+
+alias kawaw java kawa.repl -w
+alias kawa  java kawa.repl
