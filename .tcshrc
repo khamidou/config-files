@@ -49,7 +49,7 @@ set listjobs
 # Ignore some files during completion
 set fignore=(.o)
 
-setenv http_proxy http://sigma.utc.fr:3128
+
 # Define the helpcommand alias - the command to run when the user types
 # a command, and then M-h, to get its explanation.
 alias helpcommand man
@@ -81,11 +81,6 @@ alias ars "cp ~/rogue.sav Documents/rogue-saves/original-3.6/rogue-`date +%F@%k-
 
 alias spindent indent -bad -bap -nsob -cdb -sc -br -cdw -cli3 -npcs -cs -nbc -brs -bbo 
 
-# Aliases for sshing to joondalup and nicolas-fr
-alias sniko ssh kaaah@nicolas-fr.net
-alias sdavro ssh karim@joondalup.davromaniak.eu
-alias sflew ssh karim@famille-neyret.fr
-alias tvega ssh khamidou@vega.utc.fr
 alias pig ping google.com
 
 # COmmodity aliases for apt-get :
@@ -95,3 +90,5 @@ alias aptr sudo apt-get remove
 
 alias kawaw java kawa.repl -w
 alias kawa  java kawa.repl
+
+source private.csh
