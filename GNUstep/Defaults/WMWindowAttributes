@@ -1,0 +1,374 @@
+{
+  brasero.Brasero = {
+    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/brasero.Brasero.xpm";
+  };
+  "gnome-power-preferences.Gnome-power-preferences" = {
+    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/gnome-power-preferences.Gnome-power-preferences.xpm";
+  };
+  "gnome-at-properties.Gnome-at-properties" = {
+    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/gnome-at-properties.Gnome-at-properties.xpm";
+  };
+  "liferea-bin.Liferea-bin" = {
+    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/liferea-bin.Liferea-bin.xpm";
+  };
+  eog.Eog = {
+    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/eog.Eog.xpm";
+  };
+  firefox.Firefox = {
+    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/firefox.Firefox.xpm";
+  };
+  Stepman = {
+    Icon = Bookshelf.xpm;
+  };
+  gmc.Gmc = {
+    NoAppIcon = YES;
+  };
+  "file-roller.File-roller" = {
+    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/file-roller.File-roller.xpm";
+  };
+  "gnome-appearance-properties.Gnome-appearance-properties" = {
+    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/gnome-appearance-properties.Gnome-appearance-properties.xpm";
+  };
+  vinagre.Vinagre = {
+    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/vinagre.Vinagre.xpm";
+  };
+  gparted.Gparted = {
+    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/gparted.Gparted.xpm";
+  };
+  "sound-juicer.Sound-juicer" = {
+    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/sound-juicer.Sound-juicer.xpm";
+  };
+  pidgin.Pidgin = {
+    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/pidgin.Pidgin.xpm";
+  };
+  image_window.Gimp = {
+    AlwaysUserIcon = Yes;
+    Icon = "wmaker-gimp-work.tif";
+  };
+  KTerm = {
+    Icon = GNUterm.tiff;
+  };
+  AcroRead = {
+    AlwaysUserIcon = Yes;
+    Icon = pdf.tiff;
+  };
+  Logo.WMPanel = {
+    Icon = GNUstep.tiff;
+  };
+  Dockit = {
+    Icon = GNUstep.tiff;
+  };
+  tip_of_the_day.Gimp = {
+    NoResizebar = Yes;
+    AlwaysUserIcon = Yes;
+    Icon = "wmaker-gimp2.tif";
+    KeepOnTop = Yes;
+    NoCloseButton = Yes;
+    NoMiniaturizeButton = Yes;
+  };
+  color_palette.Gimp = {
+    NoResizebar = Yes;
+    AlwaysUserIcon = Yes;
+    Icon = "wmaker-gimp-palette.tif";
+  };
+  gview.Gview = {
+    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/gview.Gview.xpm";
+  };
+  transmission.Transmission = {
+    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/transmission.Transmission.xpm";
+  };
+  xcalc = {
+    AlwaysUserIcon = Yes;
+    Icon = "HP-16C-48.xpm";
+  };
+  brushselection.Gimp = {
+    AlwaysUserIcon = Yes;
+    Icon = "wmaker-gimp-brushes.tif";
+  };
+  WPrefs = {
+    Icon = "/usr/lib/GNUstep/System/Applications/WPrefs.app/WPrefs.tiff";
+  };
+  XTerm = {
+    Icon = Terminal.tiff;
+  };
+  "VCLSalFrame.DocumentWindow.OpenOffice.org 2.4" = {
+    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/VCLSalFrame.DocumentWindow.OpenOffice.org 2.4.xpm";
+  };
+  Rxvt = {
+    Icon = GNUterm.tiff;
+  };
+  groupLeader.WPrefs = {
+    Icon = "/usr/lib/GNUstep/System/Applications/WPrefs.app/WPrefs.tiff";
+  };
+  lyX.XForm = {
+    AlwaysUserIcon = Yes;
+    Icon = write.tiff;
+  };
+  gedit.Gedit = {
+    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/gedit.Gedit.xpm";
+  };
+  xmixer = {
+    Icon = mixer.tiff;
+  };
+  "script-fu.Script-fu" = {
+    Icon = "wmaker-gimp-script-fu.tif";
+  };
+  toolbox.Gimp = {
+    NoAppIcon = Yes;
+    Icon = "wmaker-gimp2.tif";
+  };
+  evince.Evince = {
+    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/evince.Evince.xpm";
+  };
+  panel = {
+    NoAppIcon = Yes;
+  };
+  emacs = {
+    Icon = "wmaker-emacs.tif";
+  };
+  "gnome-volume-control.Gnome-volume-control" = {
+    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/gnome-volume-control.Gnome-volume-control.xpm";
+  };
+  "*" = {
+    Icon = defaultAppIcon.tiff;
+    SharedAppIcon = Yes;
+  };
+  Xman = {
+    AlwaysUserIcon = Yes;
+    Icon = Bookshelf.xpm;
+  };
+  audacious.Audacious = {
+    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/audacious.Audacious.xpm";
+  };
+  . = {
+    NoAppIcon = Yes;
+  };
+  "gnome-network-preferences.Gnome-network-preferences" = {
+    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/gnome-network-preferences.Gnome-network-preferences.xpm";
+  };
+  xplaycd = {
+    Icon = Radio.xpm;
+  };
+  "gnome-keyboard-properties.Gnome-keyboard-properties" = {
+    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/gnome-keyboard-properties.Gnome-keyboard-properties.xpm";
+  };
+  synaptic.Synaptic = {
+    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/synaptic.Synaptic.xpm";
+  };
+  WSoundServer = {
+    Icon = sound.tiff;
+  };
+  Dialog.Firefox = {
+    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/Dialog.Firefox.xpm";
+  };
+  nautilus.Nautilus = {
+    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/nautilus.Nautilus.xpm";
+  };
+  Ghostview = {
+    Icon = Ghost.xpm;
+  };
+  kcmshell = {
+    NoAppIcon = Yes;
+  };
+  patternselection.Gimp = {
+    AlwaysUserIcon = Yes;
+    Icon = "wmaker-gimp-patterns.tif";
+  };
+  "gnome-nettool.Gnome-nettool" = {
+    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/gnome-nettool.Gnome-nettool.xpm";
+  };
+  gradient_editor.Gimp = {
+    AlwaysUserIcon = Yes;
+    Icon = "wmaker-gimp-gradient.tif";
+  };
+  Extension.Firefox = {
+    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/Extension.Firefox.xpm";
+  };
+  kio_uiserver = {
+    NoAppIcon = Yes;
+  };
+  thunar.Thunar = {
+    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/thunar.Thunar.xpm";
+  };
+  xmms.Xmms = {
+    NoAppIcon = Yes;
+  };
+  XConsole = {
+    Icon = inspect.xpm;
+    Omnipresent = Yes;
+  };
+  Logo.WMDock = {
+    Icon = GNUstepGlow.tiff;
+  };
+  DockApp = {
+    NoAppIcon = NO;
+  };
+  totem.Totem = {
+    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/totem.Totem.xpm";
+  };
+  "services-admin.Services-admin" = {
+    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/services-admin.Services-admin.xpm";
+  };
+  indexed_color_palette.Gimp = {
+    NoResizebar = Yes;
+    AlwaysUserIcon = Yes;
+    Icon = "wmaker-gimp-palette.tif";
+  };
+  Gimp = {
+    AlwaysUserIcon = Yes;
+    Icon = wilber.tiff;
+  };
+  "xulrunner-bin.Xulrunner-bin" = {
+    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/xulrunner-bin.Xulrunner-bin.xpm";
+  };
+  tool_options.Gimp = {
+    AlwaysUserIcon = Yes;
+    Icon = "wmaker-gimp-tooloption.tif";
+  };
+  "mrxvt-full.XTerm" = {
+    Icon = Terminal.tiff;
+  };
+  evolution.Evolution = {
+    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/evolution.Evolution.xpm";
+  };
+  panel.Panel = {
+    NoAppIcon = YES;
+  };
+  manualBrowser.Xman = {
+    AlwaysUserIcon = Yes;
+    Icon = Book.xpm;
+  };
+  Fte = {
+    Icon = Clipboard.tif;
+  };
+  "Mozilla-bin" = {
+    Icon = "wmaker-nav.tif";
+  };
+  "gnome-screenshot.Gnome-screenshot" = {
+    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/gnome-screenshot.Gnome-screenshot.xpm";
+  };
+  "gnome-power-statistics.Gnome-power-statistics" = {
+    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/gnome-power-statistics.Gnome-power-statistics.xpm";
+  };
+  "network-admin.Network-admin" = {
+    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/network-admin.Network-admin.xpm";
+  };
+  Fig = {
+    AlwaysUserIcon = Yes;
+    Icon = draw.tiff;
+  };
+  qjackctl.bin.Qjackctl.bin = {
+    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/qjackctl.bin.Qjackctl.bin.xpm";
+  };
+  gimp_startup.Gimp = {
+    NoResizebar = Yes;
+    AlwaysUserIcon = Yes;
+    NotClosable = Yes;
+    NotMiniaturizable = Yes;
+    Icon = "wmaker-gimp2.tif";
+    NoTitlebar = Yes;
+  };
+  "gnome-control-center.Gnome-control-center" = {
+    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/gnome-control-center.Gnome-control-center.xpm";
+  };
+  apturl.Apturl = {
+    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/apturl.Apturl.xpm";
+  };
+  Tile.WMClip = {
+    Icon = clip.tiff;
+  };
+  bookmarks.Netscape = {
+    NoAppIcon = YES;
+  };
+  gmc = {
+    NoAppIcon = Yes;
+    SkipWindowList = Yes;
+    Omnipresent = Yes;
+  };
+  layers_and_channels.Gimp = {
+    AlwaysUserIcon = Yes;
+    Icon = "wmaker-gimp-layers.tif";
+  };
+  baobab.Baobab = {
+    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/baobab.Baobab.xpm";
+  };
+  "epiphany-gecko.Epiphany-gecko" = {
+    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/epiphany-gecko.Epiphany-gecko.xpm";
+  };
+  "gnome-terminal.Gnome-terminal" = {
+    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/gnome-terminal.Gnome-terminal.xpm";
+  };
+  "gnome-system-monitor.Gnome-system-monitor" = {
+    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/gnome-system-monitor.Gnome-system-monitor.xpm";
+  };
+  Logo.WMClip = {
+    Icon = clip.tiff;
+  };
+  ekiga.Ekiga = {
+    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/ekiga.Ekiga.xpm";
+  };
+  WMSoundServer = {
+    Icon = Sound.tiff;
+  };
+  xv = {
+    AlwaysUserIcon = Yes;
+    Icon = xv.tiff;
+  };
+  preferences.Gimp = {
+    AlwaysUserIcon = Yes;
+    Icon = "wmaker-gimp-prefs.tif";
+  };
+  xmcd = {
+    Icon = Radio.xpm;
+  };
+  "gnome-help.Gnome-help" = {
+    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/gnome-help.Gnome-help.xpm";
+  };
+  aqualung.Aqualung = {
+    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/aqualung.Aqualung.xpm";
+  };
+  "epiphany-browser.Epiphany-browser" = {
+    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/epiphany-browser.Epiphany-browser.xpm";
+  };
+  "Script-fu" = {
+    Icon = "wmaker-gimp-script-fu.tif";
+  };
+  Netscape = {
+    Icon = Netscape.xpm;
+  };
+  NXTerm = {
+    Icon = Terminal.tiff;
+  };
+  kded = {
+    NoAppIcon = Yes;
+  };
+  xjed = {
+    Icon = Clipboard.xpm;
+  };
+  XPaint = {
+    AlwaysUserIcon = Yes;
+    Icon = Paint.xpm;
+  };
+  Xmessage = {
+    Icon = Reference.xpm;
+  };
+  xedit = {
+    Icon = notepad.tiff;
+  };
+  Xmag = {
+    Icon = inspect.xpm;
+  };
+  "gnome-settings-daemon.Gnome-settings-daemon" = {
+    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/gnome-settings-daemon.Gnome-settings-daemon.xpm";
+  };
+  "x-www-browser.X-www-browser" = {
+    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/x-www-browser.X-www-browser.xpm";
+  };
+  XLess = {
+    AlwaysUserIcon = YES;
+    Icon = Reference.xpm;
+  };
+  exaile.py.Exaile.py = {
+    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/exaile.py.Exaile.py.xpm";
+  };
+}

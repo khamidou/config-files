@@ -1,0 +1,159 @@
+{
+  HighlightColor = "#595d8e";
+  AdvanceToNewWorkspace = NO;
+  IconSize = 64;
+  EdgeResistance = 0;
+  LowerKey = None;
+  IgnoreFocusClick = NO;
+  MenuTextFont = "Trebuchet MS,Luxi Sans:pixelsize=12";
+  ShadeSpeed = medium;
+  DisableDock = NO;
+  UTitleBack = (mdgradient, "#386569", "#051c26", "#59999f");
+  MoveResizeKey = None;
+  VirtualEdgeDownKey = None;
+  VirtualEdgeLeftKey = None;
+  StickyIcons = NO;
+  PTitleBack = (mdgradient, "#384161", "#212526", "#474a70");
+  WindowShortcut10Key = None;
+  PixmapPath = (
+    "~/pixmaps",
+    "~/GNUstep/Library/WindowMaker/Pixmaps",
+    "/usr/local/share/WindowMaker/Pixmaps",
+    "/usr/share/WindowMaker/Pixmaps",
+    "/usr/local/share/pixmaps",
+    "/usr/share/pixmaps",
+    "/usr/X11R6/include/X11/pixmaps"
+  );
+  NoWindowOverIcons = NO;
+  MenuDisabledColor = "#aeaeae";
+  AutoFocus = YES;
+  FocusMode = manual;
+  MenuTextBack = (mdgradient, "#386569", "#051c26", "#59999f");
+  MenuStyle = normal;
+  IconBack = (mdgradient, "#384161", "#212526", "#474a70");
+  MenuTitleBack = (mdgradient, "#415979", "#051626", "#7391bb");
+  FTitleBack = (mdgradient, "#415979", "#051626", "#7391bb");
+  IconificationStyle = zoom;
+  MiniaturizeKey = "Mod4+H";
+  ClipRaiseKey = None;
+  ClipRaiseLowerKey = None;
+  UseSaveUnders = NO;
+  RaiseLowerKey = None;
+  ToggleKbdModeKey = None;
+  ResizebarBack = (mdgradient, "#386569", "#051c26", "#59999f");
+  MenuTextColor = "#ffffff";
+  HighlightTextColor = "#71b6d7";
+  MenuTitleColor = "#ffffff";
+  WorkspaceNameDisplayPosition = center;
+  Superfluous = NO;
+  ModifierKey = Mod1;
+  ShadeKey = "Mod4+C";
+  WindowMenuKey = None;
+  FTitleColor = "#ffffff";
+  AppIconBalloons = NO;
+  NextWorkspaceLayerKey = None;
+  WorkspaceBack = (spixmap, "/home/karim/Images/dispersion.jpg", gray20);
+  IconTitleFont = "Arial,Luxi Sans:pixelsize=9";
+  HideOthersKey = None;
+  SmoothWorkspaceBack = NO;
+  DisableWSMouseActions = NO;
+  NextWorkspaceKey = "Mod4+Up";
+  VirtualEdgeRightKey = None;
+  UTitleColor = "#d7d7d7";
+  IconPath = (
+    "~/pixmaps",
+    "~/GNUstep/Library/Icons",
+    "/usr/local/share/WindowMaker/Icons",
+    "/usr/share/WindowMaker/Icons",
+    "/usr/local/share/icons",
+    "/usr/share/icons",
+    "/usr/X11R6/include/X11/pixmaps"
+  );
+  PTitleColor = "#ffffff";
+  Attraction = NO;
+  WorkspaceBorder = None;
+  NewStyle = YES;
+  RaiseDelay = 0;
+  DontLinkWorkspaces = NO;
+  KbdModeLock = NO;
+  WindowTitleBalloons = NO;
+  HelpBalloons = NO;
+  OpaqueMove = NO;
+  WindowPlaceOrigin = (540, 333);
+  DisableAnimations = YES;
+  WindowPlacement = auto;
+  CClipTitleColor = gray60;
+  DisableMiniwindows = NO;
+  WindowShortcut8Key = None;
+  WrapMenus = NO;
+  ClipTitleColor = white;
+  WindowShortcut9Key = None;
+  DisableDithering = NO;
+  SelectKey = None;
+  IconTitleColor = white;
+  DisableBlinking = NO;
+  Workspace10Key = None;
+  DontConfirmKill = NO;
+  IconSlideSpeed = medium;
+  CycleWorkspaces = NO;
+  RaiseKey = None;
+  AntialiasedText = NO;
+  MouseMiddleButtonAction = OpenWindowListMenu;
+  HideKey = "Mod4+H";
+  PrevWorkspaceKey = "Mod4+Down";
+  MiniwindowTitleBalloons = NO;
+  WindowTitleFont = "Trebuchet MS,Luxi Sans:bold:pixelsize=12";
+  NoWindowOverDock = NO;
+  ClipTitleFont = "Verdana:bold:pixelsize=10";
+  CloseKey = None;
+  FocusNextKey = "Mod4+Right";
+  DisplayFont = "Trebuchet MS,Luxi Sans:pixelsize=12";
+  WindowShortcut1Key = None;
+  MouseRightButtonAction = OpenApplicationsMenu;
+  ScrollableMenus = YES;
+  WindowShortcut2Key = None;
+  WindowShortcut3Key = None;
+  WindowShortcut4Key = None;
+  DisableClip = NO;
+  MoveDisplay = corner;
+  AlignSubmenus = NO;
+  MaximizeKey = "Mod4+M";
+  WindowShortcut5Key = None;
+  AutoArrangeIcons = YES;
+  MenuTitleFont = "Trebuchet MS,Luxi Sans:bold:pixelsize=12";
+  WindowShortcut6Key = None;
+  RootMenuKey = "Mod5+M";
+  LargeDisplayFont = "Trebuchet MS,Luxi Sans:pixelsize=24";
+  WindowShortcut7Key = None;
+  VirtualEdgeUpKey = None;
+  ColormapSize = 2;
+  MouseLeftButtonAction = SelectWindows;
+  WorkspaceBorderSize = 0;
+  MenuScrollSpeed = medium;
+  ResizeDisplay = corner;
+  VMaximizeKey = None;
+  Workspace7Key = None;
+  Workspace6Key = None;
+  PrevWorkspaceLayerKey = None;
+  Workspace5Key = None;
+  Workspace4Key = None;
+  Workspace3Key = None;
+  Workspace2Key = None;
+  FocusPrevKey = "Mod4+Left";
+  SaveSessionOnExit = YES;
+  Workspace1Key = None;
+  ColormapMode = auto;
+  CirculateRaise = NO;
+  TitleJustify = left;
+  ScreenSwitchKey = None;
+  DisableSound = NO;
+  ClipLowerKey = None;
+  WindowListKey = "Mod4+F";
+  IconTitleBack = "#18191f";
+  IconPosition = blh;
+  OpenTransientOnOwnerWorkspace = YES;
+  Workspace9Key = None;
+  HMaximizeKey = None;
+  Workspace8Key = None;
+  MouseWheelAction = None;
+}
