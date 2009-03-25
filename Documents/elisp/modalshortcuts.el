@@ -13,6 +13,7 @@
 (define-key modal-mode-keymap "u" 'advertised-undo)
 (define-key modal-mode-keymap "a" 'ffap)
 (define-key modal-mode-keymap "g" 'keyboard-quit)
+(define-key modal-mode-keymap "m" 'man)
 (define-key modal-mode-keymap "f" 'find-file)
 (define-key modal-mode-keymap "b" 'ido-switch-buffer)
 (define-key modal-mode-keymap "k" 'kill-buffer)

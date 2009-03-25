@@ -91,4 +91,4 @@ alias aptr sudo apt-get remove
 alias kawaw java kawa.repl -w
 alias kawa  java kawa.repl
 
-source private.csh
+source ~/private.csh
