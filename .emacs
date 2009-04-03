@@ -231,7 +231,6 @@ indent according to mode."
 
 (global-set-key [(tab)] 'smart-tab)
 (setq c-hungry-delete-key 't)
-(global-set-key (kbd "DEL") 'backward-kill-word)
 (global-set-key (kbd "<f3>") 'previous-buf)
 (global-set-key (kbd "<f2>") 'anything)
 (global-set-key (kbd "<f5>") 'run-scheme)
@@ -244,5 +243,3 @@ indent according to mode."
 (global-set-key (kbd "<right>") 'forward-word)
 (global-set-key (kbd "<C-left>") 'backward-char)
 (global-set-key (kbd "<C-right>") 'forward-char)
-(add-hook 'c-mode-common-hook (lambda ()
-				(global-set-key (kbd "DEL") 'backward-kill-word)))

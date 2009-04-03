@@ -306,7 +306,7 @@
       Hidden = No;
       ShortcutMask = 0;
       Name = "gnome-terminal.Gnome-terminal";
-      Geometry = "658x410+449+289";
+      Geometry = "658x410+498+11";
       Workspace = "Bureau 3";
       Shaded = No;
       Miniaturized = No;
@@ -316,12 +316,12 @@
       Dock = Dock;
       Hidden = No;
       ShortcutMask = 0;
-      Name = "gnome-volume-control.Gnome-volume-control";
-      Geometry = "500x300+449+289";
+      Name = firefox.Firefox;
+      Geometry = "1214x767+0+0";
       Workspace = "Bureau 3";
       Shaded = No;
-      Miniaturized = No;
-      Command = "gnome-volume-control";
+      Miniaturized = Yes;
+      Command = firefox;
     }
   );
 }

@@ -6,7 +6,7 @@
 	"NSWindow Frame Inspector" = "884 16 274 459 0 0  1280 800 ";
 	"NSWindow Frame Palettes" = "884 490 274 299 0 0  1280 800 ";
 	ShowInspectors = YES;
-	ShowPalettes = YES;
+	ShowPalettes = NO;
     };
     NSGlobalDomain = {
     };

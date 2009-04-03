@@ -35,6 +35,9 @@
   gparted.Gparted = {
     Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/gparted.Gparted.xpm";
   };
+  "gnome-panel.Gnome-panel" = {
+    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/gnome-panel.Gnome-panel.xpm";
+  };
   "sound-juicer.Sound-juicer" = {
     Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/sound-juicer.Sound-juicer.xpm";
   };
@@ -48,12 +51,15 @@
   KTerm = {
     Icon = GNUterm.tiff;
   };
+  Logo.WMPanel = {
+    Icon = GNUstep.tiff;
+  };
   AcroRead = {
     AlwaysUserIcon = Yes;
     Icon = pdf.tiff;
   };
-  Logo.WMPanel = {
-    Icon = GNUstep.tiff;
+  "VCLSalFrame.OpenOffice.org 2.4" = {
+    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/VCLSalFrame.OpenOffice.org 2.4.xpm";
   };
   Dockit = {
     Icon = GNUstep.tiff;
@@ -74,12 +80,12 @@
   gview.Gview = {
     Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/gview.Gview.xpm";
   };
-  transmission.Transmission = {
-    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/transmission.Transmission.xpm";
-  };
   xcalc = {
     AlwaysUserIcon = Yes;
     Icon = "HP-16C-48.xpm";
+  };
+  transmission.Transmission = {
+    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/transmission.Transmission.xpm";
   };
   brushselection.Gimp = {
     AlwaysUserIcon = Yes;
@@ -123,6 +129,10 @@
   panel = {
     NoAppIcon = Yes;
   };
+  frame.mred = {
+    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/frame.mred.xpm";
+    EmulateAppIcon = Yes;
+  };
   emacs = {
     Icon = "wmaker-emacs.tif";
   };
@@ -149,11 +159,11 @@
   xplaycd = {
     Icon = Radio.xpm;
   };
-  "gnome-keyboard-properties.Gnome-keyboard-properties" = {
-    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/gnome-keyboard-properties.Gnome-keyboard-properties.xpm";
-  };
   synaptic.Synaptic = {
     Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/synaptic.Synaptic.xpm";
+  };
+  "gnome-keyboard-properties.Gnome-keyboard-properties" = {
+    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/gnome-keyboard-properties.Gnome-keyboard-properties.xpm";
   };
   WSoundServer = {
     Icon = sound.tiff;
@@ -274,11 +284,14 @@
   apturl.Apturl = {
     Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/apturl.Apturl.xpm";
   };
+  bookmarks.Netscape = {
+    NoAppIcon = YES;
+  };
   Tile.WMClip = {
     Icon = clip.tiff;
   };
-  bookmarks.Netscape = {
-    NoAppIcon = YES;
+  audacity.Audacity = {
+    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/audacity.Audacity.xpm";
   };
   gmc = {
     NoAppIcon = Yes;
@@ -297,6 +310,9 @@
   };
   "gnome-terminal.Gnome-terminal" = {
     Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/gnome-terminal.Gnome-terminal.xpm";
+  };
+  "time-admin.Time-admin" = {
+    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/time-admin.Time-admin.xpm";
   };
   "gnome-system-monitor.Gnome-system-monitor" = {
     Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/gnome-system-monitor.Gnome-system-monitor.xpm";

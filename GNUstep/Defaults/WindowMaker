@@ -22,42 +22,42 @@
     "/usr/share/WindowMaker/Pixmaps",
     "/usr/local/share/pixmaps",
     "/usr/share/pixmaps",
-    "/usr/X11R6/include/X11/pixmaps"
+    "/usr/X11R6/include/X11/pixmaps",
+    "/home/karim/Images"
   );
   NoWindowOverIcons = NO;
   MenuDisabledColor = "#aeaeae";
   AutoFocus = YES;
   FocusMode = manual;
   MenuTextBack = (mdgradient, "#386569", "#051c26", "#59999f");
-  MenuStyle = normal;
   IconBack = (mdgradient, "#384161", "#212526", "#474a70");
   MenuTitleBack = (mdgradient, "#415979", "#051626", "#7391bb");
   FTitleBack = (mdgradient, "#415979", "#051626", "#7391bb");
   IconificationStyle = zoom;
-  MiniaturizeKey = "Mod4+H";
   ClipRaiseKey = None;
+  MiniaturizeKey = "Mod4+H";
   ClipRaiseLowerKey = None;
   UseSaveUnders = NO;
-  RaiseLowerKey = None;
   ToggleKbdModeKey = None;
+  RaiseLowerKey = None;
   ResizebarBack = (mdgradient, "#386569", "#051c26", "#59999f");
   MenuTextColor = "#ffffff";
   HighlightTextColor = "#71b6d7";
   MenuTitleColor = "#ffffff";
-  WorkspaceNameDisplayPosition = center;
   Superfluous = NO;
+  WorkspaceNameDisplayPosition = center;
   ModifierKey = Mod1;
   ShadeKey = "Mod4+C";
   WindowMenuKey = None;
   FTitleColor = "#ffffff";
   AppIconBalloons = NO;
   NextWorkspaceLayerKey = None;
-  WorkspaceBack = (spixmap, "/home/karim/Images/dispersion.jpg", gray20);
+  WorkspaceBack = (spixmap, "/home/karim/Images/Remedy1680x1050.jpg", gray20);
   IconTitleFont = "Arial,Luxi Sans:pixelsize=9";
   HideOthersKey = None;
   SmoothWorkspaceBack = NO;
-  DisableWSMouseActions = NO;
   NextWorkspaceKey = "Mod4+Up";
+  DisableWSMouseActions = NO;
   VirtualEdgeRightKey = None;
   UTitleColor = "#d7d7d7";
   IconPath = (
@@ -70,8 +70,8 @@
     "/usr/X11R6/include/X11/pixmaps"
   );
   PTitleColor = "#ffffff";
-  Attraction = NO;
   WorkspaceBorder = None;
+  Attraction = NO;
   NewStyle = YES;
   RaiseDelay = 0;
   DontLinkWorkspaces = NO;
@@ -79,18 +79,17 @@
   WindowTitleBalloons = NO;
   HelpBalloons = NO;
   OpaqueMove = NO;
-  WindowPlaceOrigin = (540, 333);
   DisableAnimations = YES;
+  WindowPlaceOrigin = (540, 333);
   WindowPlacement = auto;
-  CClipTitleColor = gray60;
   DisableMiniwindows = NO;
   WindowShortcut8Key = None;
+  CClipTitleColor = gray60;
   WrapMenus = NO;
-  ClipTitleColor = white;
   WindowShortcut9Key = None;
   DisableDithering = NO;
+  ClipTitleColor = white;
   SelectKey = None;
-  IconTitleColor = white;
   DisableBlinking = NO;
   Workspace10Key = None;
   DontConfirmKill = NO;
@@ -102,9 +101,8 @@
   HideKey = "Mod4+H";
   PrevWorkspaceKey = "Mod4+Down";
   MiniwindowTitleBalloons = NO;
-  WindowTitleFont = "Trebuchet MS,Luxi Sans:bold:pixelsize=12";
+  WindowTitleFont = "Trebuchet MS,Luxi Sans:weight=200:pixelsize=12";
   NoWindowOverDock = NO;
-  ClipTitleFont = "Verdana:bold:pixelsize=10";
   CloseKey = None;
   FocusNextKey = "Mod4+Right";
   DisplayFont = "Trebuchet MS,Luxi Sans:pixelsize=12";
@@ -116,9 +114,9 @@
   WindowShortcut4Key = None;
   DisableClip = NO;
   MoveDisplay = corner;
-  AlignSubmenus = NO;
-  MaximizeKey = "Mod4+M";
   WindowShortcut5Key = None;
+  MaximizeKey = "Mod4+M";
+  AlignSubmenus = NO;
   AutoArrangeIcons = YES;
   MenuTitleFont = "Trebuchet MS,Luxi Sans:bold:pixelsize=12";
   WindowShortcut6Key = None;
@@ -131,29 +129,29 @@
   WorkspaceBorderSize = 0;
   MenuScrollSpeed = medium;
   ResizeDisplay = corner;
-  VMaximizeKey = None;
   Workspace7Key = None;
+  VMaximizeKey = None;
   Workspace6Key = None;
   PrevWorkspaceLayerKey = None;
   Workspace5Key = None;
   Workspace4Key = None;
   Workspace3Key = None;
   Workspace2Key = None;
-  FocusPrevKey = "Mod4+Left";
   SaveSessionOnExit = YES;
+  FocusPrevKey = "Mod4+Left";
   Workspace1Key = None;
   ColormapMode = auto;
   CirculateRaise = NO;
   TitleJustify = left;
   ScreenSwitchKey = None;
-  DisableSound = NO;
   ClipLowerKey = None;
+  DisableSound = NO;
   WindowListKey = "Mod4+F";
-  IconTitleBack = "#18191f";
   IconPosition = blh;
-  OpenTransientOnOwnerWorkspace = YES;
+  IconTitleBack = "#18191f";
   Workspace9Key = None;
-  HMaximizeKey = None;
+  OpenTransientOnOwnerWorkspace = YES;
   Workspace8Key = None;
+  HMaximizeKey = None;
   MouseWheelAction = None;
 }
