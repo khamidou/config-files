@@ -239,7 +239,7 @@ indent according to mode."
 
 ; motion key modifications : 
 ; swap C-arrow and arrow.
-(global-set-key (kbd "<left>") 'backward-word)
-(global-set-key (kbd "<right>") 'forward-word)
-(global-set-key (kbd "<C-left>") 'backward-char)
-(global-set-key (kbd "<C-right>") 'forward-char)
+(global-set-key (kbd "<C-left>") 'backward-word)
+(global-set-key (kbd "<C-right>") 'forward-word)
+(global-set-key (kbd "<left>") 'backward-char)
+(global-set-key (kbd "<right>") 'forward-char)
