@@ -85,6 +85,11 @@ vi style of % jumping to matching brace."
   (interactive)
   (switch-to-buffer (other-buffer)))
 
+; Bury the previous buffer to go the antepenultian buffer.
+(defun cycle-through-buffers ()
+  (interactive)
+  (bury-buffer (other-buffer))
+  (previous-buf))
 
 ; Courtesy of pgas.
 
@@ -232,7 +237,8 @@ indent according to mode."
 (global-set-key [(tab)] 'smart-tab)
 (setq c-hungry-delete-key 't)
 (global-set-key (kbd "<f3>") 'previous-buf)
-(global-set-key (kbd "<f2>") 'anything)
+(global-set-key (kbd "<f2>") 'previous-buf)
+(global-set-key (kbd "<f1>") 'anything)
 (global-set-key (kbd "<f5>") 'run-scheme)
 (global-set-key (kbd "<f6>") 'ielm)
 (add-hook 'python-mode-hook (lambda () (local-set-key (kbd "TAB") 'smart-tab)))
