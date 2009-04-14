@@ -19,8 +19,10 @@
 (setq inhibit-startup-message t)
 ; Add a message coming from the output of fortune in *scratch*
 (save-current-buffer
+  (emacs-lisp-mode)
   (set-buffer "*scratch*")
-  (call-process "fortune" nil (current-buffer)))
+  (call-process "fortune" nil (current-buffer))
+  (comment-region (point-min) (point-max)))
 
 (eval-after-load "dabbrev" '(defalias 'dabbrev-expand 'hippie-expand))
 
