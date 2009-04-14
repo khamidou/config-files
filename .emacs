@@ -17,6 +17,10 @@
 (display-time-mode 1)
 (ido-mode 1)
 (setq inhibit-startup-message t)
+; Add a message coming from the output of fortune in *scratch*
+(save-current-buffer
+  (set-buffer "*scratch*")
+  (call-process "fortune" nil (current-buffer)))
 
 (eval-after-load "dabbrev" '(defalias 'dabbrev-expand 'hippie-expand))
 

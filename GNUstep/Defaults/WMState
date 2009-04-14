@@ -61,11 +61,11 @@
         BuggyApplication = No;
       },
       {
-        PasteCommand = "liferea-bin %s";
-        Name = "liferea-bin.Liferea-bin";
+        PasteCommand = "squeak %s";
+        Name = squeak.Squeak;
         Lock = No;
         AutoLaunch = No;
-        Command = "liferea-bin";
+        Command = squeak;
         Position = "0,8";
         Forced = No;
         BuggyApplication = No;
@@ -182,11 +182,11 @@
         BuggyApplication = No;
       },
       {
-        PasteCommand = "liferea-bin %s";
-        Name = "liferea-bin.Liferea-bin";
+        PasteCommand = "squeak %s";
+        Name = squeak.Squeak;
         Lock = No;
         AutoLaunch = No;
-        Command = "liferea-bin";
+        Command = squeak;
         Position = "0,8";
         Forced = No;
         BuggyApplication = No;
@@ -294,6 +294,17 @@
             Forced = No;
             BuggyApplication = No;
             Omnipresent = No;
+          },
+          {
+            PasteCommand = "hydrogen %s";
+            Name = hydrogen.Hydrogen;
+            Lock = No;
+            AutoLaunch = No;
+            Command = hydrogen;
+            Position = "0,2";
+            Forced = No;
+            BuggyApplication = No;
+            Omnipresent = No;
           }
         );
       };
@@ -305,12 +316,12 @@
       Dock = Dock;
       Hidden = No;
       ShortcutMask = 0;
-      Name = "gnome-terminal.Gnome-terminal";
-      Geometry = "658x410+498+11";
+      Name = "gnome-volume-control.Gnome-volume-control";
+      Geometry = "500x300+449+289";
       Workspace = "Bureau 3";
       Shaded = No;
       Miniaturized = No;
-      Command = "/usr/bin/gnome-terminal";
+      Command = "gnome-volume-control";
     },
     {
       Dock = Dock;
