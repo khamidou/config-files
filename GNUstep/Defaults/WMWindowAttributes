@@ -89,6 +89,7 @@
   };
   python2.5.python2.5 = {
     NoResizebar = Yes;
+    Icon = GNUstep.tiff;
     EmulateAppIcon = Yes;
   };
   brushselection.Gimp = {
@@ -181,6 +182,9 @@
   nautilus.Nautilus = {
     Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/nautilus.Nautilus.xpm";
   };
+  qtrun.py.Qtrun.py = {
+    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/qtrun.py.Qtrun.py.xpm";
+  };
   Ghostview = {
     Icon = Ghost.xpm;
   };
@@ -231,6 +235,9 @@
     AlwaysUserIcon = Yes;
     Icon = "wmaker-gimp-palette.tif";
   };
+  "com-install4j-runtime-Launcher.com-install4j-runtime-Launcher" = {
+    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/com-install4j-runtime-Launcher.com-install4j-runtime-Launcher.xpm";
+  };
   Gimp = {
     AlwaysUserIcon = Yes;
     Icon = wilber.tiff;
@@ -264,15 +271,19 @@
   "gnome-screenshot.Gnome-screenshot" = {
     Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/gnome-screenshot.Gnome-screenshot.xpm";
   };
+  supertux2.supertux2 = {
+    NoResizebar = Yes;
+    EmulateAppIcon = Yes;
+  };
   "gnome-power-statistics.Gnome-power-statistics" = {
     Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/gnome-power-statistics.Gnome-power-statistics.xpm";
-  };
-  "network-admin.Network-admin" = {
-    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/network-admin.Network-admin.xpm";
   };
   Fig = {
     AlwaysUserIcon = Yes;
     Icon = draw.tiff;
+  };
+  "network-admin.Network-admin" = {
+    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/network-admin.Network-admin.xpm";
   };
   qjackctl.bin.Qjackctl.bin = {
     Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/qjackctl.bin.Qjackctl.bin.xpm";
@@ -324,6 +335,11 @@
   "gnome-system-monitor.Gnome-system-monitor" = {
     Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/gnome-system-monitor.Gnome-system-monitor.xpm";
   };
+  xmoto.xmoto = {
+    NoResizebar = Yes;
+    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/xmoto.xmoto.xpm";
+    EmulateAppIcon = Yes;
+  };
   Logo.WMClip = {
     Icon = clip.tiff;
   };
@@ -343,6 +359,11 @@
   preferences.Gimp = {
     AlwaysUserIcon = Yes;
     Icon = "wmaker-gimp-prefs.tif";
+  };
+  pingus.pingus = {
+    NoResizebar = Yes;
+    Icon = scummvm.xpm;
+    EmulateAppIcon = Yes;
   };
   xmcd = {
     Icon = Radio.xpm;

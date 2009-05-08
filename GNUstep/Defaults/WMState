@@ -252,7 +252,7 @@
     Forced = No;
     BuggyApplication = No;
   };
-  Workspace = "Bureau 3";
+  Workspace = "Bureau 2";
   Workspaces = (
     {
       Clip = {
@@ -305,6 +305,50 @@
             Forced = No;
             BuggyApplication = No;
             Omnipresent = No;
+          },
+          {
+            PasteCommand = "pingus %s";
+            Name = pingus.pingus;
+            Lock = No;
+            AutoLaunch = No;
+            Command = pingus;
+            Position = "0,3";
+            Forced = No;
+            BuggyApplication = No;
+            Omnipresent = No;
+          },
+          {
+            PasteCommand = "supertux2 %s";
+            Name = supertux2.supertux2;
+            Lock = No;
+            AutoLaunch = No;
+            Command = supertux2;
+            Position = "1,0";
+            Forced = No;
+            BuggyApplication = No;
+            Omnipresent = No;
+          },
+          {
+            PasteCommand = "/home/karim/Jeux/FretsOnFire/src/FretsOnFire.py %s";
+            Name = "python2\\.5.python2\\.5";
+            Lock = No;
+            AutoLaunch = No;
+            Command = "/home/karim/Jeux/FretsOnFire/src/FretsOnFire.py";
+            Position = "2,0";
+            Forced = No;
+            BuggyApplication = No;
+            Omnipresent = No;
+          },
+          {
+            PasteCommand = "xmoto %s";
+            Name = xmoto.xmoto;
+            Lock = No;
+            AutoLaunch = No;
+            Command = xmoto;
+            Position = "0,4";
+            Forced = No;
+            BuggyApplication = No;
+            Omnipresent = No;
           }
         );
       };
@@ -316,23 +360,23 @@
       Dock = Dock;
       Hidden = No;
       ShortcutMask = 0;
-      Name = "gnome-volume-control.Gnome-volume-control";
-      Geometry = "500x300+449+289";
-      Workspace = "Bureau 3";
+      Name = "gnome-terminal.Gnome-terminal";
+      Geometry = "658x410+310+-10";
+      Workspace = "Bureau 2";
       Shaded = No;
       Miniaturized = No;
-      Command = "gnome-volume-control";
+      Command = "/usr/bin/gnome-terminal";
     },
     {
       Dock = Dock;
       Hidden = No;
       ShortcutMask = 0;
-      Name = firefox.Firefox;
-      Geometry = "1214x767+0+0";
-      Workspace = "Bureau 3";
+      Name = "gnome-volume-control.Gnome-volume-control";
+      Geometry = "540x300+449+289";
+      Workspace = "Bureau 2";
       Shaded = No;
-      Miniaturized = Yes;
-      Command = firefox;
+      Miniaturized = No;
+      Command = "gnome-volume-control";
     }
   );
 }
