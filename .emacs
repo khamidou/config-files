@@ -233,6 +233,7 @@ indent according to mode."
 ; Set up the prefix key C-* (on the µ key)
 (global-set-key "\C-\\" karim-map)
 
+(add-to-list 'auto-mode-alist '("\\.io\\'" . io-mode))
 
 ; set a few keys
 (define-key karim-map "\C-c" 'compile)
