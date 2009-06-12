@@ -52,7 +52,7 @@
   FTitleColor = "#ffffff";
   AppIconBalloons = NO;
   NextWorkspaceLayerKey = None;
-  WorkspaceBack = (spixmap, "/home/karim/Images/dispersion.jpg", gray20);
+  WorkspaceBack = (spixmap, "will-bryant-5-1280x1024.jpg", gray20);
   IconTitleFont = "Arial,Luxi Sans:pixelsize=9";
   HideOthersKey = None;
   SmoothWorkspaceBack = NO;

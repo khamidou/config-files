@@ -16,6 +16,7 @@
 (column-number-mode 1)
 (display-time-mode 1)
 (ido-mode 1)
+(setq indicate-empty-lines t) ;; Indiquer la fin du fichier comme sous Vim
 (setq inhibit-startup-message t)
 ; Add a message coming from the output of fortune in *scratch*
 (save-current-buffer

@@ -272,7 +272,19 @@
         Lowered = Yes;
         Collapsed = No;
         AutoRaiseLower = No;
-        Applications = ();
+        Applications = (
+          {
+            PasteCommand = "drscheme %s";
+            Name = frame.mred;
+            Lock = No;
+            AutoLaunch = No;
+            Command = drscheme;
+            Position = "0,1";
+            Forced = No;
+            BuggyApplication = No;
+            Omnipresent = No;
+          }
+        );
       };
       Name = "Bureau 2";
     },
@@ -360,23 +372,23 @@
       Dock = Dock;
       Hidden = No;
       ShortcutMask = 0;
-      Name = "gnome-terminal.Gnome-terminal";
-      Geometry = "658x410+310+-10";
+      Name = firefox.Firefox;
+      Geometry = "1216x767+0+0";
       Workspace = "Bureau 2";
       Shaded = No;
-      Miniaturized = No;
-      Command = "/usr/bin/gnome-terminal";
+      Miniaturized = Yes;
+      Command = firefox;
     },
     {
       Dock = Dock;
       Hidden = No;
       ShortcutMask = 0;
-      Name = "gnome-volume-control.Gnome-volume-control";
-      Geometry = "540x300+449+289";
+      Name = "gnome-terminal.Gnome-terminal";
+      Geometry = "662x442+310+-10";
       Workspace = "Bureau 2";
       Shaded = No;
-      Miniaturized = No;
-      Command = "gnome-volume-control";
+      Miniaturized = Yes;
+      Command = "/usr/bin/gnome-terminal";
     }
   );
 }
