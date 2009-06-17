@@ -73,6 +73,7 @@ alias ls ls-F --color=auto # This undocumented feature provide color for ls-F,
                            # a built-in implementation of ls.
 
 alias forth gforth # Default forth 
+alias lint splint # I keep confusing splint and split
 
 # Automatic rogue saves.
 alias rs bash rs.sh

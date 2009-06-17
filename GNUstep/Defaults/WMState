@@ -252,7 +252,7 @@
     Forced = No;
     BuggyApplication = No;
   };
-  Workspace = "Bureau 2";
+  Workspace = "Bureau 3";
   Workspaces = (
     {
       Clip = {
@@ -361,6 +361,16 @@
             Forced = No;
             BuggyApplication = No;
             Omnipresent = No;
+          },
+          {
+            Name = "xulrunner-bin.Xulrunner-bin";
+            Lock = No;
+            AutoLaunch = No;
+            Command = "prism-google-mail";
+            Position = "0,5";
+            Forced = No;
+            BuggyApplication = No;
+            Omnipresent = No;
           }
         );
       };
@@ -372,23 +382,23 @@
       Dock = Dock;
       Hidden = No;
       ShortcutMask = 0;
+      Name = "gnome-terminal.Gnome-terminal";
+      Geometry = "1214x799+0+0";
+      Workspace = "Bureau 2";
+      Shaded = No;
+      Miniaturized = Yes;
+      Command = "/usr/bin/gnome-terminal";
+    },
+    {
+      Dock = Dock;
+      Hidden = No;
+      ShortcutMask = 0;
       Name = firefox.Firefox;
       Geometry = "1216x767+0+0";
       Workspace = "Bureau 2";
       Shaded = No;
       Miniaturized = Yes;
       Command = firefox;
-    },
-    {
-      Dock = Dock;
-      Hidden = No;
-      ShortcutMask = 0;
-      Name = "gnome-terminal.Gnome-terminal";
-      Geometry = "662x442+310+-10";
-      Workspace = "Bureau 2";
-      Shaded = No;
-      Miniaturized = Yes;
-      Command = "/usr/bin/gnome-terminal";
     }
   );
 }
