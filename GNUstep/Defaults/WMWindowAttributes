@@ -1,42 +1,45 @@
 {
-  brasero.Brasero = {
-    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/brasero.Brasero.xpm";
-  };
-  "gnome-power-preferences.Gnome-power-preferences" = {
-    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/gnome-power-preferences.Gnome-power-preferences.xpm";
-  };
-  "gnome-at-properties.Gnome-at-properties" = {
-    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/gnome-at-properties.Gnome-at-properties.xpm";
-  };
-  "liferea-bin.Liferea-bin" = {
-    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/liferea-bin.Liferea-bin.xpm";
-  };
-  eog.Eog = {
-    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/eog.Eog.xpm";
-  };
-  firefox.Firefox = {
-    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/firefox.Firefox.xpm";
-  };
-  Stepman = {
-    Icon = Bookshelf.xpm;
-  };
-  gmc.Gmc = {
-    NoAppIcon = YES;
-  };
-  "file-roller.File-roller" = {
-    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/file-roller.File-roller.xpm";
-  };
-  "gnome-appearance-properties.Gnome-appearance-properties" = {
-    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/gnome-appearance-properties.Gnome-appearance-properties.xpm";
-  };
-  vinagre.Vinagre = {
-    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/vinagre.Vinagre.xpm";
+  "gnome-panel.Gnome-panel" = {
+    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/gnome-panel.Gnome-panel.xpm";
   };
   gparted.Gparted = {
     Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/gparted.Gparted.xpm";
   };
-  "gnome-panel.Gnome-panel" = {
-    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/gnome-panel.Gnome-panel.xpm";
+  vinagre.Vinagre = {
+    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/vinagre.Vinagre.xpm";
+  };
+  "gnome-appearance-properties.Gnome-appearance-properties" = {
+    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/gnome-appearance-properties.Gnome-appearance-properties.xpm";
+  };
+  "file-roller.File-roller" = {
+    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/file-roller.File-roller.xpm";
+  };
+  gmc.Gmc = {
+    NoAppIcon = YES;
+  };
+  Stepman = {
+    Icon = Bookshelf.xpm;
+  };
+  firefox.Firefox = {
+    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/firefox.Firefox.xpm";
+  };
+  eog.Eog = {
+    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/eog.Eog.xpm";
+  };
+  "liferea-bin.Liferea-bin" = {
+    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/liferea-bin.Liferea-bin.xpm";
+  };
+  "gnome-at-properties.Gnome-at-properties" = {
+    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/gnome-at-properties.Gnome-at-properties.xpm";
+  };
+  "gnome-power-preferences.Gnome-power-preferences" = {
+    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/gnome-power-preferences.Gnome-power-preferences.xpm";
+  };
+  brasero.Brasero = {
+    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/brasero.Brasero.xpm";
+  };
+  "REBOL - Viewtop.REBOL - Viewtop" = {
+    EmulateAppIcon = Yes;
   };
   "sound-juicer.Sound-juicer" = {
     Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/sound-juicer.Sound-juicer.xpm";
@@ -80,12 +83,12 @@
   gview.Gview = {
     Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/gview.Gview.xpm";
   };
+  transmission.Transmission = {
+    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/transmission.Transmission.xpm";
+  };
   xcalc = {
     AlwaysUserIcon = Yes;
     Icon = "HP-16C-48.xpm";
-  };
-  transmission.Transmission = {
-    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/transmission.Transmission.xpm";
   };
   python2.5.python2.5 = {
     NoResizebar = Yes;
@@ -118,17 +121,17 @@
     AlwaysUserIcon = Yes;
     Icon = write.tiff;
   };
-  Tomboy.Tomboy = {
-    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/Tomboy.Tomboy.xpm";
-  };
-  gedit.Gedit = {
-    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/gedit.Gedit.xpm";
+  Browser.Firefox = {
+    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/Browser.Firefox.xpm";
   };
   xmixer = {
     Icon = mixer.tiff;
   };
-  Browser.Firefox = {
-    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/Browser.Firefox.xpm";
+  gedit.Gedit = {
+    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/gedit.Gedit.xpm";
+  };
+  Tomboy.Tomboy = {
+    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/Tomboy.Tomboy.xpm";
   };
   "script-fu.Script-fu" = {
     Icon = "wmaker-gimp-script-fu.tif";
@@ -277,19 +280,19 @@
   "Mozilla-bin" = {
     Icon = "wmaker-nav.tif";
   };
-  "gnome-power-statistics.Gnome-power-statistics" = {
-    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/gnome-power-statistics.Gnome-power-statistics.xpm";
-  };
   supertux2.supertux2 = {
     NoResizebar = Yes;
     EmulateAppIcon = Yes;
   };
-  "network-admin.Network-admin" = {
-    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/network-admin.Network-admin.xpm";
+  "gnome-power-statistics.Gnome-power-statistics" = {
+    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/gnome-power-statistics.Gnome-power-statistics.xpm";
   };
   Fig = {
     AlwaysUserIcon = Yes;
     Icon = draw.tiff;
+  };
+  "network-admin.Network-admin" = {
+    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/network-admin.Network-admin.xpm";
   };
   qjackctl.bin.Qjackctl.bin = {
     Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/qjackctl.bin.Qjackctl.bin.xpm";
@@ -407,6 +410,9 @@
   };
   Xmessage = {
     Icon = Reference.xpm;
+  };
+  Update.Firefox = {
+    Icon = "/home/karim/GNUstep/Library/WindowMaker/CachedPixmaps/Update.Firefox.xpm";
   };
   xedit = {
     Icon = notepad.tiff;

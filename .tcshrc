@@ -61,7 +61,7 @@ alias dirs dirs -v
 #set savedirs=15
 
 # Some utility aliases 
-alias m emacs
+alias m make
 alias emacs emacs22 -nw   # emacs21 is better - but emacs22 has python-mode
 alias l less
 alias n mc

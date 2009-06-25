@@ -252,7 +252,7 @@
     Forced = No;
     BuggyApplication = No;
   };
-  Workspace = "Bureau 3";
+  Workspace = "Bureau 2";
   Workspaces = (
     {
       Clip = {
@@ -280,6 +280,17 @@
             AutoLaunch = No;
             Command = drscheme;
             Position = "0,1";
+            Forced = No;
+            BuggyApplication = No;
+            Omnipresent = No;
+          },
+          {
+            PasteCommand = "/home/karim/proglangs/rebol/rebview %s";
+            Name = "REBOL - Viewtop.REBOL - Viewtop";
+            Lock = No;
+            AutoLaunch = No;
+            Command = "/home/karim/proglangs/rebol/rebview";
+            Position = "0,2";
             Forced = No;
             BuggyApplication = No;
             Omnipresent = No;
@@ -319,11 +330,11 @@
             Omnipresent = No;
           },
           {
-            PasteCommand = "pingus %s";
+            PasteCommand = "scummvm %s";
             Name = pingus.pingus;
             Lock = No;
             AutoLaunch = No;
-            Command = pingus;
+            Command = scummvm;
             Position = "0,3";
             Forced = No;
             BuggyApplication = No;
@@ -383,10 +394,10 @@
       Hidden = No;
       ShortcutMask = 0;
       Name = "gnome-terminal.Gnome-terminal";
-      Geometry = "1214x799+0+0";
+      Geometry = "658x410+472+312";
       Workspace = "Bureau 2";
       Shaded = No;
-      Miniaturized = Yes;
+      Miniaturized = No;
       Command = "/usr/bin/gnome-terminal";
     },
     {
