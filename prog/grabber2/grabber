@@ -1,0 +1,45 @@
+#!/usr/bin/env python
+
+import sys
+import fcntl
+import signal
+from os import popen
+
+# Try to acquire the file lock :
+
+def bail_out(msg):
+	print msg
+        sys.exit(-1)
+
+lockfile = "/tmp/grabber" + os.getpid()
+
+try:
+    fd = open(lockfile, "wt")
+except IOError:
+    bail_out("Unable to open /tmp/grabber - exiting")
+
+try:
+    fcntl.lockf(fd, fcntl.LOCK_EX | fcntl.LOCK_NB)
+except IOError:
+    # Grabber is already running - it is has been invoked a second time it's because 
+    # the user want to leave automated grab mode.
+
+try:
+    xte_pipe = popen("xte", "w")
+except IOError:
+    bail_out("Unable to open xte pipe")
+
+while True:
+    menu_pipe = popen("./grabber-menu", "r")
+
+    for c in menu_pipe.read():
+        xte_pipe.write("key " + c + "\n")
+
+# 
+# Unlock the file at the end
+try:
+    fcntl.lockf(fd, fcntl.LOCK_UN)
+except IOError:
+    bail_out("Unable to release lock on file")
+
+

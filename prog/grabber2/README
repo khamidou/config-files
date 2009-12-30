@@ -1,0 +1,3 @@
+This is grabber, a small tool that supply word autocompletion in X11 environments.
+
+Grabber requires xte (xautomation) and xbindkeys.

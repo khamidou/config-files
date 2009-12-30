@@ -1,0 +1,3 @@
+#!/bin/sh
+
+dmenu < /usr/share/dict/words
